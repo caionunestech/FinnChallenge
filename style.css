@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:wght@700&family=Roboto:wght@100;400&family=Yellowtail&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif ;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1100px;
+  width: 1300px;
+  background-color: #2CB3F3;
+}
+
+h1 {
+  font-weight:400; 
+}
+
+button {
+  position: absolute;
+  width: 220px;
+  height: 70px;
+  border-radius: 5px;
+  left: 570px;
+  top: 1000px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  background: #55A603;
+  font-size: 24px;
+  font-weight: 700;
+  color: #B2F272;
+  border-color: #B2F272;
+}
+
+.text_box {
+  position: relative;
+  top: 100px;
+  line-height: 55px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.character {
+  position: relative;
+  width: 880px;
+  height: 616px;
+  border-radius: 100px 100px 0px 0px;
+  left: 243px;
+  top: 245px;
+  background-color: white;  
+}
+
+.head {
+  position: absolute;
+  width: 692px;
+  height: 487px;
+  border-radius: 50%;
+  left: 94px;
+  top: 64px;
+  background-color: #FFE1C9;
+}
+
+.left_eye {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  left:180px;
+  top:100px;
+  background-color: black;
+}
+
+.right_eye {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  left:458px; 
+  top:100px;
+  background-color: black;
+}
+
+#email {
+  position: absolute;
+  width: 370px;
+  height: 64px;
+  border-radius: 5px;
+  left: 250px;
+  top: 300px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#password {
+  position: absolute;
+  width: 370px;
+  height: 64px;
+  border-radius: 5px;
+  left: 250px;
+  top: 365px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* 
+  position:
+  width:
+  height:
+  border-radius:
+  left:
+  top:
+  font-weight:
+  font-size:
+  
+  background-color:
+*/
